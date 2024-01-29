@@ -8,8 +8,8 @@ hr{
     display: none;
 }
 
-body{
-    width: 50%;
+body{   
+    width: 60%;
     margin: auto;
 }
 
@@ -17,6 +17,56 @@ body{
     height: 100px;
     background-image: url(../img/pattern.png);
     background-size: contain;
+    background-color: aqua;
+}
+
+h3, h4, h5{
+    font-size: 20px;
+    color: lightgray;
+}
+
+h5{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#color-text{
+    color: deepskyblue;
+}
+
+ul{
+    margin-top: 15px;
+}
+
+figcaption{
+    font-size: 15px;
+}
+
+.evidenziato{
+    background-color: yellow;
+}
+
+table{
+    border-collapse: collapse;
+    width: auto;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+thead{
+    background-color: deepskyblue;
+    color: white;
+    
+}
+
+th{
+    white-space: nowrap;
+    padding-right: 30px;
+}
+
+.row-background{
     background-color: aqua;
 }
 
