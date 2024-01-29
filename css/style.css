@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    display: none;
+}
+
+body{
+    width: 50%;
+    margin: auto;
+}
+
+.header-size{
+    height: 100px;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: aqua;
+}
+
+
